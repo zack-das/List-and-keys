@@ -71,10 +71,21 @@ nav a:active {
 #about a {
   display: block;
 }
-
-#projects {
+#project{
   background-color: cornsilk;
   min-height: 400px;
+  text-align: center;
+  padding: 40px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  background-color: cornsilk;
+  
+}
+#projects h1{
+  text-align: center;
 }
 
 #project-list {
